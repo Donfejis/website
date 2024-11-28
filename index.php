@@ -325,5 +325,26 @@ function HomeAddress ($snumber, $name) {
 
 HomeAddress("5th" ,"DLA");
 HomeAddress("9th" ,"Ezenei");
+echo "<br>";
+echo "<br>";
+
+function StreetName ($sname) {
+     echo "$sname Asaba. <br>";
+}
+
+StreetName("DLA");
+StreetName("Ezenei");
+
+echo "<br>";
+echo "<br>";
+
+function HomeAddress ($snumber, $name) {
+     echo "$snumber street $
+     
+     name Asaba. <br>";
+}
+
+HomeAddress("5th" ,"DLA");
+HomeAddress("9th" ,"Ezenei");
 
 ?>
